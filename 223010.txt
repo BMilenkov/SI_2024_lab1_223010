@@ -1,0 +1,28 @@
+4. git init
+5. git remote add origin https://github.com/BMilenkov/SI_2024_lab1_223010.git
+6. nano README.md, git add README.md, git commit -m "Initial commit" README.md
+7.git add *.java, git commit -m "Add starter code" *.java
+8. otvoreni datotekite i promeneti dvete datoteki, vo prvata namesto % 2 == 0 ,go promenuvam vo % 2 == 1 , a vo vtorata .java datoteka namesto  < promenata e vo >=.
+9.git checkout -b bug2, git checkout -b bug1.
+10. Veke sum na grankata bug1.
+11. git commit -m "Fix wrong condition in filterOddLengthStrings" SILab1_1.java
+12. git checkout bug2
+13. git add SILab1_2.java, git commit -m "Fix wrong condition in makeBigStringFrom" SILab1_2.java
+14. git checkout bug1
+15. $ git add SILab1Main.java, git commit -m "Call method filterOddLengthStrings in main class" SILab1Main.java
+16. git checkout bug2
+17. $ git add SILab1Main.java, git commit -m "Call method makeBigStringFrom in main class" SILab1Main.java
+18. git push origin bug1, git checkout bug2, git push origin bug2.
+19. git checkout master.
+20. git merge bug1
+21. git push origin master
+22. git checkout bug2.
+23. git rebase master (resavanje na konfliktot so otvaranje na nano prosorecot), git add SILab1Main.java, git rebase --continue
+24. git checkout master
+25. git merge bug2
+26. git push -u origin master
+27. git push -u --force origin bug2
+28. nano logs.txt, nano 223010.txt
+29. git push  
+
+
